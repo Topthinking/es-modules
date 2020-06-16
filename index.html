@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>es module</title>
+</head>
+<body>
+	<div id="root1"></div>
+	<div id="root2"></div>
+	<div id="root3"></div>
+	<script src="./public/react.js"></script>
+	<script src="./public/react-dom.js"></script>
+
+	<!-- rollup build -->
+	<script src="./bundle.js" type="module"></script>
+
+	<!-- es6 modules -->
+	<script src="./build/index.js" type="module"></script>
+
+	<!-- webpack -->
+	<script src="./dist/index.js" type="module"></script>
+</body>
+</html>
